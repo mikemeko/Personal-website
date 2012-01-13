@@ -20,7 +20,7 @@ div#body {
   margin-right:auto;
 }
 
-div#info {
+div#me {
   display:inline-block;
 }
 
@@ -29,32 +29,38 @@ div#picture {
   margin:10px;
 }
 
-div#links {
+div#info {
   float:left;
 }
 
+div#MIT {
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+div#links {
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+div#contact {
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
 div.year {
-  width:60%;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
+  display:inline-block;
+  margin-left:33%;
+  margin-right:33%;
 }
 
 div.term {
-  width:80%;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:20px;
-  margin-bottom:20px;
+  float:left;
+  margin:20px;
 }
 
 div.course {
-  width:60%;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:2px;
+  margin:2px;
   border:2px black solid;
   background-color:lightgray;
 }
@@ -63,13 +69,9 @@ div.project {
   display:block;
   margin-left:auto;
   margin-right:auto;
-  width:80%;
+  width:60%;
   border:1px gray solid;
   background-color:lightgray;
-}
-
-p#name {
-
 }
 
 p#last_updated {
@@ -80,5 +82,3 @@ img#me {
   width:300px;
   height:420px;
 }
-
-
