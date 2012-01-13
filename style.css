@@ -1,3 +1,45 @@
 /**
 * Stylesheet.
 */
+
+body {
+  background-image: url("docs/background.png");
+}
+
+div {
+  text-align: center;
+}
+
+div#body {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#info {
+  display:inline-block;
+}
+
+div#picture {
+  float:left;
+  margin:10px;
+}
+
+div#links {
+  float:left;
+}
+
+p#name {
+
+}
+
+p#last_updated {
+  color:gray;
+}
+
+img#me {
+  width:300px;
+  height:420px;
+}
+
+
