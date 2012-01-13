@@ -2,8 +2,11 @@
 * Stylesheet.
 */
 
+@import url(http://fonts.googleapis.com/css?family=Signika);
+
 body {
   background-image:url("docs/background.png");
+  font-family:"Signika", serif;
 }
 
 div {
@@ -74,8 +77,16 @@ div.project {
   background-color:lightgray;
 }
 
+p#name {
+  font-size: 40px;
+}
+
 p#last_updated {
   color:gray;
+}
+
+p#title {
+  font-size: 30px;
 }
 
 img#me {
