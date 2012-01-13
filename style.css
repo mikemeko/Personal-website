@@ -33,12 +33,38 @@ div#links {
   float:left;
 }
 
+div.year {
+  width:60%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+div.term {
+  width:80%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+div.course {
+  width:60%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:2px;
+  border:2px black solid;
+  background-color:lightgray;
+}
+
 div.project {
   display:block;
   margin-left:auto;
   margin-right:auto;
   width:80%;
-  border:2px black solid;
+  border:1px gray solid;
   background-color:lightgray;
 }
 
