@@ -72,6 +72,7 @@ div.project {
   display:block;
   margin-left:auto;
   margin-right:auto;
+  margin-bottom:10px;
   width:60%;
   border:1px gray solid;
   background-color:lightgray;
